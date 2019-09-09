@@ -13,8 +13,6 @@ class App extends Component {
 
   // On From Submit:
   searchFlights = async e => {
-    var controller = new AbortController();
-    controller.abort();
     this.setState({ flights: [], loading: true });
     e.preventDefault();
     let from = '';
@@ -40,7 +38,7 @@ class App extends Component {
       let onDate = onDates[i];
 
       const res = await axios.get(
-        `https://api.skypicker.com/flights?fly_from=${from}&fly_to=${to}&date_from=${onDate}&date_to=${onDate}&flight_type=oneway&direct_flights=${this.state.isDirect}&partner=picky&limit=1&sort=price&asc=1`
+        `https://api.skypicker.com/flights?fly_from=${from}&fly_to=${to}&date_from=${onDate}&date_to=${onDate}&flight_type=oneway&direct_flights=0&partner=picky&limit=1&sort=quality&asc=1`
       );
       const flightResult = res.data.data[0];
 
@@ -72,6 +70,7 @@ class App extends Component {
     const { flights, loading } = this.state;
     return (
       <div className='appWrapper'>
+        <h1>A better way to find</h1>
         <Form searchFlights={this.searchFlights} />
         <FlightItem flights={flights} loading={loading} />
       </div>
