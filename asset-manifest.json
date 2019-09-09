@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Flight-Explorer/static/css/main.af2c559e.chunk.css",
+    "main.js": "/Flight-Explorer/static/js/main.d9f80289.chunk.js",
+    "main.js.map": "/Flight-Explorer/static/js/main.d9f80289.chunk.js.map",
+    "runtime~main.js": "/Flight-Explorer/static/js/runtime~main.ca9466f6.js",
+    "runtime~main.js.map": "/Flight-Explorer/static/js/runtime~main.ca9466f6.js.map",
+    "static/js/2.538f7ae5.chunk.js": "/Flight-Explorer/static/js/2.538f7ae5.chunk.js",
+    "static/js/2.538f7ae5.chunk.js.map": "/Flight-Explorer/static/js/2.538f7ae5.chunk.js.map",
+    "index.html": "/Flight-Explorer/index.html",
+    "precache-manifest.487391e64fa795dce03bc6a20afee509.js": "/Flight-Explorer/precache-manifest.487391e64fa795dce03bc6a20afee509.js",
+    "service-worker.js": "/Flight-Explorer/service-worker.js",
+    "static/css/main.af2c559e.chunk.css.map": "/Flight-Explorer/static/css/main.af2c559e.chunk.css.map",
+    "static/media/App.css": "/Flight-Explorer/static/media/pattern.57fa854e.png",
+    "static/media/plane.png": "/Flight-Explorer/static/media/plane.a39c93d8.png",
+    "static/media/spinner.gif": "/Flight-Explorer/static/media/spinner.cb92d04f.gif"
+  }
+}
