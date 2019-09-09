@@ -212,8 +212,7 @@ body * {
   grid-template-columns: 1fr 300px 1fr;
   background: url('./asset/pattern.png');
   /* rgba(242, 240, 243, 0.952) */
-  background: linear-gradient(rgba(130, 22, 184, 0.952)),
-    url('./asset/pattern.png');
+
   /* border: 3px solid blue; */
   margin: 60px auto;
   padding: 10px 30px;
